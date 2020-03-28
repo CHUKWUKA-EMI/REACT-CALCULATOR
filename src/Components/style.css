@@ -1,0 +1,59 @@
+.keypad{
+    display: block;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button{
+    width: 20%;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+    
+
+.display{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    background-color:whitesmoke;
+    width: 98%;
+    border: 5px solid darkgray;
+    padding: 10px 0;
+    text-align: centre;
+    font-size: 25px;
+    font-weight: 700;
+    scroll-padding-left: 5px;
+    border-radius: 0.5rem;
+    border-style: groove;
+    font-style: italic;
+    font-family: Geneva;
+    
+}
+
+.equation{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.container{
+    background:black;
+    height: 50%;
+    width: 30%;
+    white-space: normal;
+    border: 5px solid black;
+    margin: 5% 35%;
+}
+body{
+    background-color: darkslategray;
+}
